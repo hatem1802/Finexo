@@ -1,0 +1,127 @@
+/*********************************** 
+                common
+*************************************/
+body{
+    font-family:sans-serif; 
+    --font-color:white;
+    height:auto;    
+}
+.btn-box{
+    display:inline-block;
+    background-color:#00bbf0;
+    padding:10px 40px;
+    color:var(--font-color);
+    transition:0.3s;
+    text-decoration:none;
+}
+.btn-box:hover{
+    background-color:#007fa4;
+}
+span{
+    color:#00bbf0;
+}
+section{
+    margin:0 0 3rem 0;
+}
+/*********************************** 
+                home
+*************************************/
+
+.navbar-brand{
+    color:var(--font-color);
+    font-weight:800;
+    font-size:x-large;
+}
+.nav-link{
+    color:white;
+    transition:0.3s;
+}
+.nav-link:hover{
+    color:#00bbf0;
+}
+.image-box-1{
+    animation:upDown 5s alternate infinite;
+    height:100%;
+}
+@keyframes upDown{
+    0%{
+        transform:translateY(-45px)
+    }
+    50%{
+        transform:translateY(45px)
+    }
+    100%{
+        transform:translateY(-45px)
+    }
+}
+/*********************************** 
+            our services
+*************************************/
+.btn:hover{
+    color:#00bbf0;
+}
+.card-box-1>.card{
+    background-color:#f8f8f9;
+    border:0;
+}
+/*********************************** 
+                about us
+*************************************/
+.about_us{
+    height:auto;
+    padding:5rem;
+}
+
+/*********************************** 
+                why us
+*************************************/
+.image-box-3{
+    width:8rem;
+    height:8rem;
+    border:5px solid #00204a;
+}
+.image-box-3>img{
+    width: 50%;
+}
+/******************************
+            footer
+******************************/
+footer{
+    background-color: #00204a;
+    color: var(--font-color);
+    padding:50px 80px 
+}
+footer a{
+    text-decoration: none;
+    color:var(--font-color);
+
+}
+footer a:hover{
+    color:#00bbf0;
+
+}
+input[type=search]{
+    padding:10px 2px;
+    background-color:transparent;
+    border: 0;
+    border-bottom:1px solid white;
+    width:80%;
+    color:var(--font-color)
+}
+input[type=submit]{
+    display:inline-block;
+    background-color:#00bbf0;
+    padding:10px 40px;
+    color:var(--font-color);
+    transition:0.3s;
+    text-decoration:none;
+    width:80%;
+    margin:20px 0;
+    border:0;
+}
+input::placeholder{
+    color:white;
+}
+input[type=submit]:hover{
+    background-color:#007fa4;
+}
